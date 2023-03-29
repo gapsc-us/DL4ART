@@ -9,7 +9,7 @@ Samples were generated as 1,5 x 1,5 cm square, 200 pixel per cm, 8 bits grayscal
 
 Here you will find:
 
-1.- A manually labeled sample, Crops0139_H.json and Crops0139_V.json in folder labeled so you can see what the input to the training of the model would be,  in labeled_npz
+1.- A labeled sample, Crops0139.tif so you can see what the input to the training of the model would be.
 
 2.- Code to learn the weights of the VGG regression model see Train-Regression-VGGEq-NMAE-BS32.ipynb
 

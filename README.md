@@ -21,4 +21,11 @@ You should gather your own images, generate samples, label them, and generate th
 
 ## Forensic Analysis of Fabrics based on Siamese Networks
 
+In Forensic Study of Paintings Through the Comparison of Fabrics
+Juan José Murillo-Fuentes, Pablo M. Olmos, Laura Alba-Carcelén
+[arXiv:2506.20272 [cs.CV]](https://arxiv.org/abs/2506.20272)
+
+we report recent results on the comparison of fabrics not based on thread counting matching. Traditional methods are based on thread density map matching, which cannot be applied when canvases do not come from contiguous positions on a roll. This paper presents a novel approach based on deep learning to assess the similarity of textiles. We introduce an automatic tool that evaluates the similarity between canvases without relying on thread density maps. A Siamese deep learning model is designed and trained to compare pairs of images by exploiting the feature representations learned from the scans. In addition, a similarity estimation method is proposed, aggregating predictions from multiple pairs of cloth samples to provide a robust similarity score. Our approach is applied to canvases from the Museo Nacional del Prado, corroborating the hypothesis that plain weave canvases, widely used in painting, can be effectively compared even when their thread densities are similar. The results demonstrate the feasibility and accuracy of the proposed method, opening new avenues for the analysis of masterpieces.
+
+In the folder Siamese we will upload the models used. We have no permisson to share data. Therefore the code is given for those interested in trying it on their samples. We include in folder cropping a sample Crops0139.tif, so you can see what the input to the training of the model would be.
 

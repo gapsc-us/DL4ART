@@ -1,6 +1,10 @@
 # DL4ART
 Deep learning models for Art
 
+In this repository we include some code used in our latest results in the application of artificial intelligence to the analysis of fabrics in canvases. With these analyses we provide the curator with tools to much improve the historical description of masterpieces. 
+
+## Thread counting with CNN models for regression
+
 We include the code to train the VGG model in the manuscript "Thread Counting in Plain Weave for Old Paintings Using Semi-Supervised Regression Deep Learning Models"
 
 We have no permisson to share data. Therefore the code is given for those interested in trying it on their labeled samples.

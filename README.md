@@ -3,7 +3,7 @@ Deep learning models for Art
 
 In this repository we include some code used in our latest results in the application of artificial intelligence to the analysis of fabrics in canvases. With these analyses we provide the curator with tools to much improve the historical description of masterpieces. 
 
-## Thread counting with CNN models for regression
+## Thread Counting with CNN Models for Regression
 
 In folder RegressionNMAE we include a notebook with the code to train the VGG model in the manuscript
 
@@ -18,5 +18,7 @@ Samples were generated as 1,5 x 1,5 cm square, 200 pixel per cm, 8 bits grayscal
 We include in folder cropping with a labeled sample, Crops0139.tif, so you can see what the input to the training of the model would be.
 
 You should gather your own images, generate samples, label them, and generate the .npz files. The input to the learning are the preprocessed samples and the npz with the labels for the horizontal and vertical threads.
+
+## Forensic Analysis of Fabrics based on Siamese Networks
 
 
